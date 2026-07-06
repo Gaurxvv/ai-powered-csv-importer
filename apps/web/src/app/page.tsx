@@ -172,11 +172,27 @@ export default function Home() {
       });
 
       if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || 'Failed to initialize mapping extraction');
+        let errorMessage = `Server returned status ${response.status}`;
+        try {
+          const contentType = response.headers.get('content-type');
+          if (contentType && contentType.includes('application/json')) {
+            const errorData = await response.json();
+            errorMessage = errorData.error || errorMessage;
+          } else {
+            const textText = await response.text();
+            errorMessage = textText.substring(0, 100) || errorMessage;
+          }
+        } catch (_) {}
+        throw new Error(errorMessage);
       }
 
-      const { jobId } = await response.json();
+      let jobId = '';
+      try {
+        const responseData = await response.json();
+        jobId = responseData.jobId;
+      } catch (e) {
+        throw new Error('Failed to parse successful initialization response from server');
+      }
       setJobId(jobId);
 
       const eventSource = new EventSource(`${BACKEND_URL}/api/import/status/${jobId}`);
