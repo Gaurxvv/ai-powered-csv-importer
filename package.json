@@ -1,0 +1,16 @@
+{
+  "name": "groweasy-csv-importer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-Powered CSV Importer for GrowEasy CRM",
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter @groweasy/server dev\" \"pnpm --filter @groweasy/web dev\"",
+    "build": "pnpm --filter @groweasy/shared build && pnpm --filter @groweasy/server build && pnpm --filter @groweasy/web build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.3.3"
+  }
+}

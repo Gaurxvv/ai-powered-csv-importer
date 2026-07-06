@@ -1,0 +1,6 @@
+Name,Contact Info,Date,Possession,Notes
+Clark Kent,clark@dailyplanet.com; +1-800-SUPERMAN,01-Jul-26,Immediate,Needs follow-up next Tuesday
+Tony Stark,tony@stark.com,02-Jul-26,6 Months,"Additional phone: +1-555-IRONMAN; Wants top floor apartment"
+Empty Row,,,,,
+Malformed Row,N/A,03-Jul-26,,no contact details here
+Logan,wolverine@xmen.org,04-Jul-26,Immediate,"Additional email: logan@weaponx.ca; Dangerous lead"

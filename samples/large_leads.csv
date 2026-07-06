@@ -1,0 +1,21 @@
+Lead Name,Email Address,Phone,Company,City,State,Campaign,Status,Notes
+Clark Kent,clark.kent@dailyplanet.com,+1 202 555 0143,Daily Planet,Metropolis,New York,leads_on_demand,GOOD_LEAD_FOLLOW_UP,Needs urgent call back
+Bruce Wayne,bruce@wayneenterprise.com,,Wayne Enterprises,Gotham,New Jersey,varah_swamy,DID_NOT_CONNECT,Left VM
+Diana Prince,diana.prince@museum.org,+1-800-JUSTICE,Louvre,Paris,,leads_on_demand,,Wants to inspect the apartment
+Barry Allen,barry.allen@ccpd.gov,+1 555 0192,CCPD,Central City,Ohio,meridian_tower,SALE_DONE,Fast buyer
+Hal Jordan,greenlantern@sector2814.org,+1 555 9988,Ferris Aircraft,Coast City,California,eden_park,BAD_LEAD,Incorrect number
+Arthur Curry,aquaman@atlantis.gov,,Atlantis Gov,Boston,Massachusetts,varah_swamy,,Prefers seaside properties
+Victor Stone,cyborg@star-labs.com,+1 202 555 9876,STAR Labs,Detroit,Michigan,eden_park,GOOD_LEAD_FOLLOW_UP,Cyborg interface testing
+Oliver Queen,oliver@queenconsolidated.com,+1 555 1234,Queen Consolidated,Starling City,Washington,leads_on_demand,,Interested in penthouse
+Barry Allen Personal,fastestman@gmail.com,+1 555 0192; +1 555 0193,Star Labs,Central City,Ohio,meridian_tower,,Second line provided
+John Jones,martian@detective.com,+1 505 555 0122,,Denver,Colorado,sarjapur_plots,,
+Selina Kyle,cat@gotham.org,+1 555 9382,,Gotham,New Jersey,,BAD_LEAD,Do not connect again
+Lois Lane,lois.lane@dailyplanet.com,+1 202 555 0144,Daily Planet,Metropolis,New York,leads_on_demand,SALE_DONE,Top reporter
+Lex Luthor,lex@lexcorp.com,+1 202 555 0909,LexCorp,Metropolis,New York,varah_swamy,BAD_LEAD,Spam lead
+Steve Rogers,cap@avengers.org,+1-718-555-1941,S.H.I.E.L.D.,Brooklyn,New York,eden_park,GOOD_LEAD_FOLLOW_UP,Returning customer from 1940s
+Tony Stark,tony@starkindustries.com,+1 212 555 3000,Stark Industries,Malibu,California,varah_swamy,SALE_DONE,Bought the entire tower
+Natasha Romanoff,blackwidow@shield.gov,,S.H.I.E.L.D.,St. Petersburg,,meridian_tower,,Do not disclose address
+Bruce Banner,banner@gamma.edu,+1 555 0987,Caltech,Pasadena,California,sarjapur_plots,DID_NOT_CONNECT,Do not make him angry
+Wade Wilson,deadpool@chimichanga.com,+1-800-POOL-DEAD,,New York,New York,,GOOD_LEAD_FOLLOW_UP,Funny remarks
+Peter Parker,spidey@dailybugle.com,+1-718-555-0199,Daily Bugle,Queens,New York,eden_park,,Needs photos of the plots
+Carol Danvers,captain@nasa.gov,+1 555 2049,NASA,Houston,Texas,sarjapur_plots,SALE_DONE,Interstellar buyer

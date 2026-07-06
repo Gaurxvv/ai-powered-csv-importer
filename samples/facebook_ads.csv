@@ -1,0 +1,5 @@
+created_time,campaign_name,full_name,email,phone_number,company_name,city,state,user_status
+2026-07-06 10:00:00,Leads On Demand,John Doe,johndoe@example.com,+919876543210,Acme Corp,Mumbai,Maharashtra,GOOD_LEAD_FOLLOW_UP
+2026-07-06 10:15:00,Leads On Demand,Jane Smith,janesmith@example.com,,Globex,Delhi,,
+2026-07-06 10:30:00,Leads On Demand,No Contacts,none,N/A,Initech,Austin,Texas,
+2026-07-06 10:45:00,Leads On Demand,Bob Johnson,bob@company.com; bob.personal@gmail.com,+91 99999 88888,Umbrella Corp,Bangalore,,SALE_DONE
